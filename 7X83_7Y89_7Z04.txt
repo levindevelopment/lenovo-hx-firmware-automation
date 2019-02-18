@@ -1,0 +1,11 @@
+#Best Recipe 3.5
+lnvgy_fw_xcc_cdi324q-1.90_anyos_noarch 
+lnvgy_fw_uefi_ive122d-1.30_anyos_32-64 
+lnvgy_fw_lxpm_pdl114n-1.30_anyos_noarch 
+lnvgy_fw_drvln_pdl214m-1.30_anyos_noarch 
+lnvgy_fw_drvwn_pdl314m-1.30_anyos_noarch 
+intc-lnvgy_fw_nic_3.3f-1.1892.0-ta-sr_linux_x86-64 
+mlnx-lnvgy_fw_nic_4.3-1.0.1.0.3_linux_x86-64 
+lnvgy_fw_mpt35sas_430-3.03-06_linux_x86-64 
+lnvgy_fw_m2raid_2.3.10.1095_anyos_noarch 
+lnvgy_fw_hdd_sas-1.27.08_linux_x86-64 
