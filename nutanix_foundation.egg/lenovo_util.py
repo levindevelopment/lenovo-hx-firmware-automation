@@ -242,7 +242,7 @@ class LenovoUtil(object):
             self.session.set_power(action)
 
     @_connect
-    def attach_media(self, nfs_path, tries=3):
+    def attach_media(self, nfs_path, tries=6):
         """
         Attach virtual media to node."
         """
