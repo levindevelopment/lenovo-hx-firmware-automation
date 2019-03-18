@@ -1,5 +1,5 @@
 #Best Recipe 3.7
-lnvgy_fw_xcc_cdi324q-1.90_anyos_noarch 
+lnvgy_fw_xcc_cdi326d-2.02_anyos_noarch
 lnvgy_fw_uefi_ive122d-1.30_anyos_32-64 
 lnvgy_fw_lxpm_pdl114n-1.30_anyos_noarch 
 lnvgy_fw_drvln_pdl214m-1.30_anyos_noarch 
