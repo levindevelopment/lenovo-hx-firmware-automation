@@ -2,7 +2,7 @@
 # This script will:
 # - Display text box for LXCA Server IP(name), username, password and source firmware directory
 # - Create a job on LXCA Server and upload firmware
-
+# Uses Import-LXCAUpdatePackage from the LXCA Powershell toolkit
 
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing") 
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") 
