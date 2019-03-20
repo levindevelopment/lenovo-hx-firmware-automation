@@ -8,4 +8,8 @@ Requires manually specifying the version of BOMC in the script so it can downloa
 
 After the Boot files are extracted, the ZIP file is left behind in the working dir and included in the ISO. Which means the boot files are on the iso twice, once where they are actually used and once as an archive adding 640MB to the image size.
 
-Updated to allow local policies file processing of firmware updates
+Updated to allow local policies file processing of firmware updates.
+
+Use:
+- Create_BOMC_ISOs_from_XML.ps1 should only be used.
+- Policy folder with applicable XML for deployed systems should be placed in the same directory as the powershell
