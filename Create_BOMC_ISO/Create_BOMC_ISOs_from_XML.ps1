@@ -228,7 +228,7 @@ foreach ($PolicyFile in (Get-ChildItem $PoliciesPath | where {! $_.PSIsContainer
         write-host "  OneCLI acquiring " -NoNewLine
         write-host "$Update " -NoNewline -fore cyan
         $params = ("update acquire --scope individual --nosupersede --includeid $Update --dir $UpdatesDLPath --output $UpdatesDLPath\logs").split(" ")
-#        write-host ((((& "$OneCliExe" $params) 2>&1 | Out-String).Split("`n") | where {$_ -like "*$Update*"}).ToString().Replace($Update,"")).Trim() -fore Green
+        write-host ((((& "$OneCliExe" $params) 2>&1 | Out-String).Split("`n") | where {$_ -like "*$Update*"}).ToString().Replace($Update,"")).Trim() -fore Green
         if ($LastExitCode -eq 1) {
             write-host "OneCli FAILED!" -fore Red
             $haveUpdates = $False
