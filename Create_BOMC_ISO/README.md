@@ -1,10 +1,4 @@
-  _                                  _    ___   __
- | |                                | |  | \ \ / /
- | |     ___ _ __   _____   _____   | |__| |\ V / 
- | |    / _ | '_ \ / _ \ \ / / _ \  |  __  | > <  
- | |___|  __| | | | (_) \ V | (_) | | |  | |/ . \ 
- |______\___|_| |_|\___/ \_/ \___/  |_|  |_/_/ \_\
- Firmware Automation Tool 
+Lenovo ThinkAgile HX Firmware Automation Tool 
 
 Performs download/iso creation purely in powershell with TXT config files for storing the best recipe firmware names.
 No external tools like wget and unzip are required, since Powershell has built in functionality for performing downloads and unzips.
