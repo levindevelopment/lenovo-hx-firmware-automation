@@ -1,12 +1,10 @@
-
-  _                                  _______ _     _       _                  _ _        _    ___   __
- | |                                |__   __| |   (_)     | |      /\        (_| |      | |  | \ \ / /
- | |     ___ _ __   _____   _____      | |  | |__  _ _ __ | | __  /  \   __ _ _| | ___  | |__| |\ V / 
- | |    / _ | '_ \ / _ \ \ / / _ \     | |  | '_ \| | '_ \| |/ / / /\ \ / _` | | |/ _ \ |  __  | > <  
- | |___|  __| | | | (_) \ V | (_) |    | |  | | | | | | | |   < / ____ | (_| | | |  __/ | |  | |/ . \ 
- |______\___|_| |_|\___/ \_/ \___/     |_|  |_| |_|_|_| |_|_|\_/_/    \_\__, |_|_|\___| |_|  |_/_/ \_\
- Firmware Automation PS                                                  __/ |                        
-                                                                        |___/                         
+  _                                  _    ___   __
+ | |                                | |  | \ \ / /
+ | |     ___ _ __   _____   _____   | |__| |\ V / 
+ | |    / _ | '_ \ / _ \ \ / / _ \  |  __  | > <  
+ | |___|  __| | | | (_) \ V | (_) | | |  | |/ . \ 
+ |______\___|_| |_|\___/ \_/ \___/  |_|  |_/_/ \_\
+ Firmware Automation Tool 
 
 Performs download/iso creation purely in powershell with TXT config files for storing the best recipe firmware names.
 No external tools like wget and unzip are required, since Powershell has built in functionality for performing downloads and unzips.
