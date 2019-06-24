@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<policy>
+  <id>1561348884643</id>
+  <name>BestRecipe_7-0_Converged_8693-8695_HXx310_HXx510</name>
+  <updateRule></updateRule>
+  <description>Lenovo Converged Appliance Node 8693 8695 Best Recipe 7.0 HXx310 HXx510</description>
+  <lastModified>VAR_EDITED@DCGSERVICES@2019-06-24 14:01:24</lastModified>
+  <userDefined>yes</userDefined>
+  <filterType>all</filterType>
+  <details>
+    <mt>
+      <systemType>8693</systemType>
+      <id>8693</id>
+      <baseVersion>xxxx_utl_uxsp_xxxxxx-1.00_xxxx_32-64</baseVersion>
+      <rule>alertIfNotExactMatch</rule>
+      <isUXSP>yes</isUXSP>
+      <isDefault>yes</isDefault>
+      <build></build>
+      <releaseDate></releaseDate>
+      <version></version>
+      <isGA>yes</isGA>
+      <packageExistence>yes</packageExistence>
+      <isDoNotUpdate>no</isDoNotUpdate>
+      <components>
+        <component>
+          <name>Integrated Management Module 2 (IMM2) Update (Backup)</name>
+          <targetVersion>DoNotUpdate_SERVER_IMM2-BACKUP</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type>IMM-Backup</type>
+        </component>
+        <component>
+          <name>Integrated Management Module 2 (IMM2) Update</name>
+          <targetVersion>lnvgy_fw_imm2_tcoo46e-5.10_anyos_noarch</targetVersion>
+          <build>TCOO46E</build>
+          <releaseDate>2018-10-16</releaseDate>
+          <version>5.10</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type>IMM</type>
+        </component>
+        <component>
+          <name>Lenovo System x3550 M5 UEFI Firmware (Backup)</name>
+          <targetVersion>DoNotUpdate_SERVER_UEFI-BACKUP</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type>UEFI-Backup</type>
+        </component>
+        <component>
+          <name>Lenovo System x3550 M5 UEFI Firmware</name>
+          <targetVersion>lnvgy_fw_uefi_tbe138h-2.81_anyos_32-64</targetVersion>
+          <build>TBE138H</build>
+          <releaseDate>2018-12-08</releaseDate>
+          <version>2.81</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type>UEFI</type>
+        </component>
+        <component>
+          <name>Lenovo Dynamic System Analysis (DSA)</name>
+          <targetVersion>lnvgy_fw_dsa_dsalb2q-10.3_anyos_32-64</targetVersion>
+          <build>DSALB2Q</build>
+          <releaseDate>2018-07-04</releaseDate>
+          <version>10.3</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type>Diagnostics</type>
+        </component>
+        <component>
+          <name>BIOS/FW/UEFI Update for N2200 Series SAS/SATA HBA Controllers</name>
+          <targetVersion>lnvgy_fw_mpt3sas_n2200-1.15-7_linux_x86-64</targetVersion>
+          <build></build>
+          <releaseDate>2018-10-12</releaseDate>
+          <version>n2200-1.15-7</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Broadcom NX-1 Ethernet Firmware Update for Linux</name>
+          <targetVersion>brcm-lnvgy_fw_nic_nx1-212.0.5.4_linux_x86-64</targetVersion>
+          <build></build>
+          <releaseDate>2018-11-05</releaseDate>
+          <version>212.0.5.4</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Intel v22.7 Network FW Update Release for Linux</name>
+          <targetVersion>intc-lnvgy_fw_nic_6.80-4.00-1.1937.0-g_linux_x86-64</targetVersion>
+          <build></build>
+          <releaseDate>2019-02-15</releaseDate>
+          <version>6.80-4.00-1.1937.0-g</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Lenovo 12Gb SAS Expander and Non-Expander backplane (2.08)</name>
+          <targetVersion>lnvgy_fw_exp_12gb-sas-3.00_linux_x86-64</targetVersion>
+          <build></build>
+          <releaseDate>2018-10-18</releaseDate>
+          <version>12gb-sas-3.00</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Lenovo Online SAS/SATA Hard Disk Drive Update Program</name>
+          <targetVersion>lnvgy_fw_hdd_sas-1.28.04_linux_x86-64</targetVersion>
+          <build>SAS-1.28.04</build>
+          <releaseDate>2019-02-27</releaseDate>
+          <version>sas-1.28.04</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+      </components>
+    </mt>
+    <mt>
+      <systemType>8695</systemType>
+      <id>8695</id>
+      <baseVersion>xxxx_utl_uxsp_xxxxxx-1.00_xxxx_32-64</baseVersion>
+      <rule>alertIfNotExactMatch</rule>
+      <isUXSP>yes</isUXSP>
+      <isDefault>yes</isDefault>
+      <build></build>
+      <releaseDate></releaseDate>
+      <version></version>
+      <isGA>yes</isGA>
+      <packageExistence>yes</packageExistence>
+      <isDoNotUpdate>no</isDoNotUpdate>
+      <components>
+        <component>
+          <name>Integrated Management Module 2 (IMM2) Update (Backup)</name>
+          <targetVersion>DoNotUpdate_SERVER_IMM2-BACKUP</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type>IMM-Backup</type>
+        </component>
+        <component>
+          <name>Integrated Management Module 2 (IMM2) Update</name>
+          <targetVersion>lnvgy_fw_imm2_tcoo46e-5.10_anyos_noarch</targetVersion>
+          <build>TCOO46E</build>
+          <releaseDate>2018-10-16</releaseDate>
+          <version>5.10</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type>IMM</type>
+        </component>
+        <component>
+          <name>Lenovo Dynamic System Analysis (DSA)</name>
+          <targetVersion>lnvgy_fw_dsa_dsalb2q-10.3_anyos_32-64</targetVersion>
+          <build>DSALB2Q</build>
+          <releaseDate>2018-07-04</releaseDate>
+          <version>10.3</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type>Diagnostics</type>
+        </component>
+        <component>
+          <name>BIOS/FW/UEFI Update for N2200 Series SAS/SATA HBA Controllers</name>
+          <targetVersion>lnvgy_fw_mpt3sas_n2200-1.15-7_linux_x86-64</targetVersion>
+          <build></build>
+          <releaseDate>2018-10-12</releaseDate>
+          <version>n2200-1.15-7</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Broadcom NX-1 Ethernet Firmware Update for Linux</name>
+          <targetVersion>brcm-lnvgy_fw_nic_nx1-212.0.5.4_linux_x86-64</targetVersion>
+          <build></build>
+          <releaseDate>2018-11-05</releaseDate>
+          <version>212.0.5.4</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Intel v23.2 Network FW Update Release for Linux</name>
+          <targetVersion>intc-lnvgy_fw_nic_6.80-4.00-1.1937.0-g_linux_x86-64</targetVersion>
+          <build></build>
+          <releaseDate>2019-02-15</releaseDate>
+          <version>6.80-4.00-1.1937.0-g</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Lenovo 12Gb SAS Expander and Non-Expander backplane (2.08)</name>
+          <targetVersion>lnvgy_fw_exp_12gb-sas-3.00_linux_x86-64</targetVersion>
+          <build></build>
+          <releaseDate>2018-10-18</releaseDate>
+          <version>12gb-sas-3.00</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Lenovo Online SAS/SATA Hard Disk Drive Update Program</name>
+          <targetVersion>lnvgy_fw_hdd_sas-1.28.04_linux_x86-64</targetVersion>
+          <build>SAS-1.28.04</build>
+          <releaseDate>2019-02-27</releaseDate>
+          <version>sas-1.28.04</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+      </components>
+    </mt>
+  </details>
+</policy>
