@@ -13,13 +13,8 @@ Use:
 - Create_BOMC_ISOs_from_XML.ps1
 - Policy folder with applicable XML for *only* your deployed systems should be placed in the same directory as the powershell
 
-/
-├── <Staging dir>/
-    ├── Create_BOMC_ISOs_from_XML.ps1
-    └── policies/
-        ├── BestRecipe_4-2_7X82-7Y88-7Z03_HX372x.xml
-        ├── BestRecipe_4-2_7X83-7Y89-7Z04_HXx32x.xml
-        └── BestRecipe_4-2_7X84-7Y90-7Z05_HXx52x.xml
+
+![Directory Structure](/Create_BOMC_ISO/staging_structure.png)
 
 
 NOTE: The latest 2.4.3 version of Lenovo XClarity Administrator must be used with this script.
