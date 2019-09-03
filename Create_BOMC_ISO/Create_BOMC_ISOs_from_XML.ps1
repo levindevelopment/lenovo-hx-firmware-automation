@@ -1,3 +1,6 @@
+# Script: Create_BOMC_ISOs_from_XML_20190624.20.ps1
+# Version: 20190624 rev 20
+# 
 # This script will:
 # - automatically download Lenovo OneCLI and BOMC using BITS
 # - download BOMC Boot files and XClarity Update XPress using OneCLI
@@ -14,10 +17,10 @@
 #BOMC Webpage: https://datacentersupport.lenovo.com/au/en/solutions/lnvo-bomc
 
 #Update the following URLs etc to the latest supported versions
-$OneCliUrl = "http://download.lenovo.com/servers/mig/2018/11/16/19601/lnvgy_utl_lxce_onecli01a-2.4.1_winsrv_x86-64.zip"
-$BomcUrl = "http://download.lenovo.com/servers/mig/2018/10/01/19235/lnvgy_utl_lxce_bomc01r-11.4.0_windows_i386.exe"
-$UXVersion = "lnvgy_utl_lxce_ux_2.4.0_anyos_x86-64" #Note: must be anyos
-$BomcBoot = "lnvgy_utl_boot_bomc-1.0.0-1.2.1" #won't autodownload from bomc cli, but can download from bomcgui
+$OneCliUrl = "http://download.lenovo.com/servers/mig/2019/04/10/19876/lnvgy_utl_lxce_onecli01v-2.5.0_winsrv_x86-64.zip"
+$BomcUrl = "http://download.lenovo.com/servers/mig/2019/05/30/20316/lnvgy_utl_lxce_bomc01m-11.5.1_windows_i386.exe"
+$UXVersion = "lnvgy_utl_lxce_ux_2.5.0_anyos_x86-64" #Note: must be anyos
+$BomcBoot = "lnvgy_utl_boot_bomc-1.0.0-1.3.6" #won't autodownload from bomc cli, but can download from bomcgui
 
 
 Import-Module BitsTransfer
@@ -255,8 +258,9 @@ foreach ($PolicyFile in (Get-ChildItem $PoliciesPath | where {! $_.PSIsContainer
         write-host "Generating " -NoNewLine
         write-host $ISOpath -fore cyan
         
-        $params = ("--description=$Models --force --boot-by-thinksystem --function=update --arch=x64 --no-acquire --tui -m $ModelList --iso=$ISOpath -l $ModelPath").split(" ")
-        (&"$BomcExe" $params) 2>&1
+        $params = ("--description=$Models --force --function=update --arch=x64 --no-acquire --tui -m $ModelList --iso=$ISOpath -l $ModelPath").split(" ")
+        write-host "$params"
+		(& "$BomcExe" $params) 2>&1 | %{ "$_" }
         if ($LastExitCode -eq 1) {
             write-host "FAILED!" -fore Red
             break
