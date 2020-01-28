@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<policy>
+  <id>1580174279461</id>
+  <name>BestRecipe_4-4_7X83-7Y89-7Z04_HXx32x</name>
+  <updateRule></updateRule>
+  <description>ThinkAgile HX 1U Appliance Node 7X83 7Y89 7Z04 Best Recipe 4-4 HXx32x</description>
+  <lastModified>VAR_EDITED@LFORREST@2020-01-28 12:17:59</lastModified>
+  <userDefined>yes</userDefined>
+  <filterType>all</filterType>
+  <details>
+    <mt>
+      <systemType>7X83</systemType>
+      <id>7X83</id>
+      <baseVersion>xxxx_utl_uxsp_xxxxxx-1.00_xxxx_32-64</baseVersion>
+      <rule>alertIfNotExactMatch</rule>
+      <isUXSP>yes</isUXSP>
+      <isDefault>no</isDefault>
+      <build></build>
+      <releaseDate></releaseDate>
+      <version></version>
+      <isGA>yes</isGA>
+      <packageExistence>yes</packageExistence>
+      <isDoNotUpdate>no</isDoNotUpdate>
+      <components>
+        <component>
+          <name>Lenovo XClarity Controller (XCC) for SR530,SR550,SR570,SR590,SR630,SR650,ST550,ST558,HX Series,VX Series (Backup)</name>
+          <targetVersion>lnvgy_fw_xcc_cdi340v-3.08_anyos_noarch</targetVersion>
+          <build>CDI340V</build>
+          <releaseDate>2019-11-25</releaseDate>
+          <version>3.08</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type>XCC-Backup</type>
+        </component>
+        <component>
+          <name>Lenovo XClarity Controller (XCC) for SR530,SR550,SR570,SR590,SR630,SR650,ST550,ST558,HX Series,VX Series</name>
+          <targetVersion>lnvgy_fw_xcc_cdi340v-3.08_anyos_noarch</targetVersion>
+          <build>CDI340V</build>
+          <releaseDate>2019-11-25</releaseDate>
+          <version>3.08</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type>XCC</type>
+        </component>
+        <component>
+          <name>Lenovo ThinkSystem SR630/SR650/SN550/SN850 UEFI Firmware</name>
+          <targetVersion>lnvgy_fw_uefi_ive136x-2.13_anyos_32-64</targetVersion>
+          <build>IVE136X</build>
+          <releaseDate>2019-05-23</releaseDate>
+          <version>2.13</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type>UEFI</type>
+        </component>
+        <component>
+          <name>Lenovo XClarity Provisioning Manager</name>
+          <targetVersion>lnvgy_fw_lxpm_pdl118z-1.50_anyos_noarch</targetVersion>
+          <build>PDL118Z</build>
+          <releaseDate>2019-05-17</releaseDate>
+          <version>1.50</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type>LXPM</type>
+        </component>
+        <component>
+          <name>Windows Driver Package for Lenovo XClarity Provisioning Manager</name>
+          <targetVersion>lnvgy_fw_drvwn_pdl318w-1.50_anyos_noarch</targetVersion>
+          <build>PDL318W</build>
+          <releaseDate>2019-04-15</releaseDate>
+          <version>1.50</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type>DRVWN</type>
+        </component>
+        <component>
+          <name>Linux Driver Package for Lenovo XClarity Provisioning Manager</name>
+          <targetVersion>lnvgy_fw_drvln_pdl218z-1.50_anyos_noarch</targetVersion>
+          <build>PDL218Z</build>
+          <releaseDate>2019-05-17</releaseDate>
+          <version>1.50</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type>DRVLN</type>
+        </component>
+        <component>
+          <name>BIOS and Firmware Update for ThinkSystem 430-x SAS/SATA 12Gb HBA</name>
+          <targetVersion>lnvgy_fw_mpt35sas_430-3.03-06_linux_x86-64</targetVersion>
+          <build>430-3.03-06</build>
+          <releaseDate>2019-05-29</releaseDate>
+          <version>3.03-06</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>BIOS and Firmware Update for ThinkSystem RAID 530-x Adapters (50.5.0-1510-1)</name>
+          <targetVersion>DoNotUpdate_SERVER_1D490500, 1D490500, 1D490501, 1D490501, 1D490502, 1D490502, 1D490503, 1D490503, RAID 530-8i Dense, RAID 530-8i, RAID 530-16i, RAID 530-4i Flex</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>BIOS and Firmware Update for ThinkSystem RAID 730-8i 1GB Cache PCIe 12Gb Adapter</name>
+          <targetVersion>DoNotUpdate_SERVER_RAID 730-8i 1GB Cache, 1D490600, 1D490600, RAID 730-8i 2GB Cache, 1D490608, 1D490608</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Broadcom NX-1 Ethernet Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_17AA402D, 17AA402C, 10140420, 17AA4011, 10140450, 17AA4107, 14E41805, 14E42805, 17AA4106, 17AA4104, 17AA400E, 17AA4042, 101404D1, 101404D0</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Broadcom NX-E Ethernet Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_17AA4160, 17AA4161, 17AA4140, 17AA4162, 17AA4163, 17AA4120, 17AA4100, 17AA4101, 17AA4047, 17AA4102, 17AA4105</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Emulex HBA (LPe1205/LPe1200x) Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_10DFF140, 10DFF141, 10DFF100, 95Y2377, 95Y2377, SN37A28093, 10DFF130, 00MN787, SN37A28092, 00MN787, SN37A28093, 10DFF141, 42D0494, 10DFF130, 42D0494, 10DFF100, 42D0485, 42D0485, SN37A28092, 10DFF140</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Emulex HBA (LPe3100x) Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_01CV832, 01CV832, 01CV842, 01CV842, SN30L22002, SN30L22002, SN30L22001, SN30L22001, 10DFE333, 10DFE333, 10DFE332, 10DFE332, 10DFE331, 10DFE331, 10DFE330, 10DFE330</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Emulex HBA (LPe3500x) Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_10DFF419, SN37A28328, 10DFF418, SN37A28328, SN37A28332, 10DFF419, 10DFF418, SN37A28332</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Emulex OCe14xxx UCNA Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_10DFE81F, 10DFE81B, 10DFE818, SN30L34587, 10DFE816, 10DFE810, 94Y5174, 94Y5162, 10DFE874, 47C8196, 47C8261, 10DFE812, 94Y5194, 00AG542, 00AG562, OCl14104-U2-L, 10DFE872, 00AG582, 10DFE81E, 00JY832, 00JY802, 00AG572, 10DFE81A, 00JY822, 00AG592, 00JY886, 10DFE81C, 01CV772, 01CV792, 94Y5204, 01CV782, 10DFE815, 10DFE817, 10DFE811, 10DFE871, 10DFE873, 00JY827, 10DFE81F, 10DFE81B, SN30L34587, 10DFE816, 94Y5174, 10DFE818, 94Y5162, 47C8196, 10DFE812, 94Y5194, 47C8261, 10DFE872, OCl14104-U2-L, 10DFE810, 10DFE874, 00JY802, 00AG572, 00JY822, 00AG592, 00AG542, 00JY886, 00AG562, 10DFE81C, 00AG582, 00JY832, 10DFE81E, 94Y5204, 10DFE81A, 01CV782, 10DFE817, 01CV772, 01CV792, 10DFE815, 10DFE873, 10DFE811, 00JY827, 10DFE871</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Firmware Update for Lenovo ThinkSystem M.2 with Mirroring Enablement Kit(2.3.10.1088)</name>
+          <targetVersion>lnvgy_fw_m2raid_2.3.10.1101_anyos_noarch</targetVersion>
+          <build>2.3.10.1101</build>
+          <releaseDate>2019-05-08</releaseDate>
+          <version>2.3.10.1101</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Firmware Update for ThinkSystem 1610-4P NVMe Switch Card</name>
+          <targetVersion>DoNotUpdate_SERVER_10B59733, 1D490001</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Intel v23.1 Network FW Update Release for ThinkAgile HX Rack and VX Rack Servers</name>
+          <targetVersion>intc-lnvgy_fw_nic_6.80-4.00-1.1937.0-g_linux_x86-64</targetVersion>
+          <build></build>
+          <releaseDate>2019-07-19</releaseDate>
+          <version>6.80-4.00-1.1937.0-g</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Lenovo Online SAS/SATA Hard Disk Drive Update Program</name>
+          <targetVersion>lnvgy_fw_hdd_sas-1.29.03_linux_x86-64</targetVersion>
+          <build>SAS-1.29.03</build>
+          <releaseDate>2019-07-25</releaseDate>
+          <version>sas-1.29.03</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Lenovo Persistent Memory FW update for Windows/Linux (For Linux)</name>
+          <targetVersion>DoNotUpdate_SERVER_8089097A</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Mellanox ConnectX-4 Firmware Update</name>
+          <targetVersion>mlnx-lnvgy_fw_nic_4.5-1.0.1.0.2_linux_x86-64</targetVersion>
+          <build>MLNX_1224</build>
+          <releaseDate>2019-05-02</releaseDate>
+          <version>4.5-1.0.1.0.2</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>QLogic FastLinQ Ethernet Adapter Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_5794X, 10770039, 10770059, 10770035</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>QLogic Fibre Channel HBA Firmware Update for ThinkSystem</name>
+          <targetVersion>DoNotUpdate_SERVER_107702B4, 107702B3, QLE2690, 107702B2, QLE2692, QLE2742, QML2692, QLE2690, 107702AF, 107702AE, QLE2692, QLE2740, QML2692</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>ThinkSystem RAID 730-8i XGB Cache/Flash PCIe 12Gb Adapter Update BIOS and Firmware</name>
+          <targetVersion>DoNotUpdate_SERVER_RAID 730-8i 1GB Cache, 1D490600, 1D490600, RAID 730-8i 2GB Cache, 1D490608, 1D490608</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>ThinkSystem RAID 930-x xGB Flash PCIe 12Gb Adapters2Gb Adapters update BIOS and Firmware for windows and linux</name>
+          <targetVersion>DoNotUpdate_SERVER_1D490607, 1D490607, RAID 930-16i 4GB Flash, RAID 930-24i 4GB Flash, RAID 930-8e 4GB Flash, RAID 930-16i 8GB Flash, RAID 930-8i 2GB Flash, 1D490601, RAID 930-4i 2GB Flash, 1D490601, 1D490602, 1D490602, 1D490603, 1D490604, 1D490604, 1D490605, 1D490605</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+      </components>
+    </mt>
+    <mt>
+      <systemType>7Y89</systemType>
+      <id>7Y89</id>
+      <baseVersion>xxxx_utl_uxsp_xxxxxx-1.00_xxxx_32-64</baseVersion>
+      <rule>alertIfNotExactMatch</rule>
+      <isUXSP>yes</isUXSP>
+      <isDefault>no</isDefault>
+      <build></build>
+      <releaseDate></releaseDate>
+      <version></version>
+      <isGA>yes</isGA>
+      <packageExistence>yes</packageExistence>
+      <isDoNotUpdate>no</isDoNotUpdate>
+      <components>
+        <component>
+          <name>Lenovo XClarity Controller (XCC) Update (Backup)</name>
+          <targetVersion>lnvgy_fw_xcc_cdi340v-3.08_anyos_noarch</targetVersion>
+          <build>CDI340V</build>
+          <releaseDate>2019-11-25</releaseDate>
+          <version>3.08</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type>XCC-Backup</type>
+        </component>
+        <component>
+          <name>Lenovo XClarity Controller (XCC) Update</name>
+          <targetVersion>lnvgy_fw_xcc_cdi340v-3.08_anyos_noarch</targetVersion>
+          <build>CDI340V</build>
+          <releaseDate>2019-11-25</releaseDate>
+          <version>3.08</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type>XCC</type>
+        </component>
+        <component>
+          <name>Lenovo ThinkSystem SR630/SR650/SN550/SN850 UEFI Firmware</name>
+          <targetVersion>lnvgy_fw_uefi_ive136x-2.13_anyos_32-64</targetVersion>
+          <build>IVE136X</build>
+          <releaseDate>2019-05-23</releaseDate>
+          <version>2.13</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type>UEFI</type>
+        </component>
+        <component>
+          <name>Lenovo XClarity Provisioning Manager (For AnyOS)</name>
+          <targetVersion>lnvgy_fw_lxpm_pdl118z-1.50_anyos_noarch</targetVersion>
+          <build>PDL118Z</build>
+          <releaseDate>2019-05-17</releaseDate>
+          <version>1.50</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type>LXPM</type>
+        </component>
+        <component>
+          <name>Windows Driver Package for Lenovo XClarity Provisioning Manager</name>
+          <targetVersion>lnvgy_fw_drvwn_pdl318w-1.50_anyos_noarch</targetVersion>
+          <build>PDL318W</build>
+          <releaseDate>2019-04-15</releaseDate>
+          <version>1.50</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type>DRVWN</type>
+        </component>
+        <component>
+          <name>Linux Driver Package for Lenovo XClarity Provisioning Manager</name>
+          <targetVersion>lnvgy_fw_drvln_pdl218z-1.50_anyos_noarch</targetVersion>
+          <build>PDL218Z</build>
+          <releaseDate>2019-05-17</releaseDate>
+          <version>1.50</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type>DRVLN</type>
+        </component>
+        <component>
+          <name>BIOS and Firmware Update for ThinkSystem 430-x SAS/SATA 12Gb HBA</name>
+          <targetVersion>lnvgy_fw_mpt35sas_430-3.03-06_linux_x86-64</targetVersion>
+          <build>430-3.03-06</build>
+          <releaseDate>2019-05-29</releaseDate>
+          <version>3.03-06</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Broadcom NX-1 Ethernet Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_17AA402D, 17AA402C, 10140420, 17AA4011, 10140450, 17AA4107, 14E41805, 14E42805, 17AA4106, 17AA4104, 17AA400E, 17AA4042, 101404D1, 101404D0</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Broadcom NX-E Ethernet Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_17AA4160, 17AA4161, 17AA4140, 17AA4162, 17AA4163, 17AA4120, 17AA4100, 17AA4101, 17AA4047, 17AA4102, 17AA4105</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Emulex HBA (LPe1205/LPe1200x) Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_10DFF140, 10DFF141, 10DFF100, 95Y2377, 95Y2377, SN37A28093, 10DFF130, 00MN787, SN37A28092, 00MN787, SN37A28093, 10DFF141, 42D0494, 10DFF130, 42D0494, 10DFF100, 42D0485, 42D0485, SN37A28092, 10DFF140</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Emulex HBA (LPe3100x) Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_01CV832, 01CV832, 01CV842, 01CV842, SN30L22002, SN30L22002, SN30L22001, SN30L22001, 10DFE333, 10DFE333, 10DFE332, 10DFE332, 10DFE331, 10DFE331, 10DFE330, 10DFE330</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Emulex HBA (LPe3500x) Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_10DFF419, SN37A28328, 10DFF418, SN37A28328, SN37A28332, 10DFF419, 10DFF418, SN37A28332</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Emulex OCe14xxx UCNA Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_10DFE81F, 10DFE81B, 10DFE818, SN30L34587, 10DFE816, 10DFE810, 94Y5174, 94Y5162, 10DFE874, 47C8196, 47C8261, 10DFE812, 94Y5194, 00AG542, 00AG562, OCl14104-U2-L, 10DFE872, 00AG582, 10DFE81E, 00JY832, 00JY802, 00AG572, 10DFE81A, 00JY822, 00AG592, 00JY886, 10DFE81C, 01CV772, 01CV792, 94Y5204, 01CV782, 10DFE815, 10DFE817, 10DFE811, 10DFE871, 10DFE873, 00JY827, 10DFE81F, 10DFE81B, SN30L34587, 10DFE816, 94Y5174, 10DFE818, 94Y5162, 47C8196, 10DFE812, 94Y5194, 47C8261, 10DFE872, OCl14104-U2-L, 10DFE810, 10DFE874, 00JY802, 00AG572, 00JY822, 00AG592, 00AG542, 00JY886, 00AG562, 10DFE81C, 00AG582, 00JY832, 10DFE81E, 94Y5204, 10DFE81A, 01CV782, 10DFE817, 01CV772, 01CV792, 10DFE815, 10DFE873, 10DFE811, 00JY827, 10DFE871</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Firmware Update for Lenovo ThinkSystem M.2 with Mirroring Enablement Kit</name>
+          <targetVersion>lnvgy_fw_m2raid_2.3.10.1101_anyos_noarch</targetVersion>
+          <build>2.3.10.1101</build>
+          <releaseDate>2019-05-08</releaseDate>
+          <version>2.3.10.1101</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Firmware Update for ThinkSystem 1610-4P NVMe Switch Card</name>
+          <targetVersion>DoNotUpdate_SERVER_10B59733, 1D490001</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Intel v23.1 Network FW Update Release for ThinkAgile HX Rack and VX Rack Servers</name>
+          <targetVersion>intc-lnvgy_fw_nic_6.80-4.00-1.1937.0-g_linux_x86-64</targetVersion>
+          <build></build>
+          <releaseDate>2019-07-19</releaseDate>
+          <version>6.80-4.00-1.1937.0-g</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Lenovo Online SAS/SATA Hard Disk Drive Update Program</name>
+          <targetVersion>lnvgy_fw_hdd_sas-1.29.03_linux_x86-64</targetVersion>
+          <build>SAS-1.29.03</build>
+          <releaseDate>2019-07-25</releaseDate>
+          <version>sas-1.29.03</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Lenovo Persistent Memory FW update for Windows/Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_8089097A</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Mellanox Firmware</name>
+          <targetVersion>mlnx-lnvgy_fw_nic_4.5-1.0.1.0.2_linux_x86-64</targetVersion>
+          <build>MLNX_1224</build>
+          <releaseDate>2019-05-02</releaseDate>
+          <version>4.5-1.0.1.0.2</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>QLogic FastLinQ Ethernet Adapter Firmware Update for Linux (For Linux)</name>
+          <targetVersion>DoNotUpdate_SERVER_5794X, 10770039, 10770059, 10770035</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>QLogic Fibre Channel HBA Firmware Update for ThinkSystem (For Linux)</name>
+          <targetVersion>DoNotUpdate_SERVER_107702B4, 107702B3, QLE2690, 107702B2, QLE2692, QLE2742, QML2692, QLE2690, 107702AF, 107702AE, QLE2692, QLE2740, QML2692</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>ThinkSystem RAID 530-x Adapters update BIOS and Firmware (For Linux)</name>
+          <targetVersion>DoNotUpdate_SERVER_1D490500, 1D490500, 1D490501, 1D490501, 1D490502, 1D490502, 1D490503, 1D490503, RAID 530-8i Dense, RAID 530-8i, RAID 530-16i, RAID 530-4i Flex</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>ThinkSystem RAID 730-8i 1GB Cache PCIe 12Gb Adapter Update BIOS and Firmware for windows and linux</name>
+          <targetVersion>DoNotUpdate_SERVER_RAID 730-8i 1GB Cache, 1D490600, 1D490600, RAID 730-8i 2GB Cache, 1D490608, 1D490608</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>ThinkSystem RAID 930-x xGB Flash PCIe 12Gb Adapters2Gb Adapters update BIOS and Firmware for windows and linux</name>
+          <targetVersion>DoNotUpdate_SERVER_1D490607, 1D490607, RAID 930-16i 4GB Flash, RAID 930-24i 4GB Flash, RAID 930-8e 4GB Flash, RAID 930-16i 8GB Flash, RAID 930-8i 2GB Flash, 1D490601, RAID 930-4i 2GB Flash, 1D490601, 1D490602, 1D490602, 1D490603, 1D490604, 1D490604, 1D490605, 1D490605</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+      </components>
+    </mt>
+    <mt>
+      <systemType>7Z04</systemType>
+      <id>7Z04</id>
+      <baseVersion>xxxx_utl_uxsp_xxxxxx-1.00_xxxx_32-64</baseVersion>
+      <rule>alertIfNotExactMatch</rule>
+      <isUXSP>yes</isUXSP>
+      <isDefault>no</isDefault>
+      <build></build>
+      <releaseDate></releaseDate>
+      <version></version>
+      <isGA>yes</isGA>
+      <packageExistence>yes</packageExistence>
+      <isDoNotUpdate>no</isDoNotUpdate>
+      <components>
+        <component>
+          <name>Lenovo XClarity Controller (XCC) Update (Backup)</name>
+          <targetVersion>lnvgy_fw_xcc_cdi340v-3.08_anyos_noarch</targetVersion>
+          <build>CDI340V</build>
+          <releaseDate>2019-11-25</releaseDate>
+          <version>3.08</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type>XCC-Backup</type>
+        </component>
+        <component>
+          <name>Lenovo XClarity Controller (XCC) Update</name>
+          <targetVersion>lnvgy_fw_xcc_cdi340v-3.08_anyos_noarch</targetVersion>
+          <build>CDI340V</build>
+          <releaseDate>2019-11-25</releaseDate>
+          <version>3.08</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type>XCC</type>
+        </component>
+        <component>
+          <name>Lenovo ThinkSystem SR630/SR650/SN550/SN850 UEFI Firmware</name>
+          <targetVersion>lnvgy_fw_uefi_ive136x-2.13_anyos_32-64</targetVersion>
+          <build>IVE136X</build>
+          <releaseDate>2019-05-23</releaseDate>
+          <version>2.13</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type>UEFI</type>
+        </component>
+        <component>
+          <name>Lenovo XClarity Provisioning Manager</name>
+          <targetVersion>lnvgy_fw_lxpm_pdl118z-1.50_anyos_noarch</targetVersion>
+          <build>PDL118Z</build>
+          <releaseDate>2019-05-17</releaseDate>
+          <version>1.50</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type>LXPM</type>
+        </component>
+        <component>
+          <name>Windows Driver Package for Lenovo XClarity Provisioning Manager</name>
+          <targetVersion>lnvgy_fw_drvwn_pdl318w-1.50_anyos_noarch</targetVersion>
+          <build>PDL318W</build>
+          <releaseDate>2019-04-15</releaseDate>
+          <version>1.50</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type>DRVWN</type>
+        </component>
+        <component>
+          <name>Linux Driver Package for Lenovo XClarity Provisioning Manager</name>
+          <targetVersion>lnvgy_fw_drvln_pdl218z-1.50_anyos_noarch</targetVersion>
+          <build>PDL218Z</build>
+          <releaseDate>2019-05-17</releaseDate>
+          <version>1.50</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type>DRVLN</type>
+        </component>
+        <component>
+          <name>BIOS and Firmware Update for ThinkSystem 430-x SAS/SATA 12Gb HBA</name>
+          <targetVersion>lnvgy_fw_mpt35sas_430-3.03-06_linux_x86-64</targetVersion>
+          <build>430-3.03-06</build>
+          <releaseDate>2019-05-29</releaseDate>
+          <version>3.03-06</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>BIOS and Firmware Update for ThinkSystem RAID 530-x Adapters (50.5.0-1510-1)</name>
+          <targetVersion>DoNotUpdate_SERVER_1D490500, 1D490500, 1D490501, 1D490501, 1D490502, 1D490502, 1D490503, 1D490503, RAID 530-8i Dense, RAID 530-8i, RAID 530-16i, RAID 530-4i Flex</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>BIOS and Firmware Update for ThinkSystem RAID 930-x xGB Flash PCIe 12Gb Adapters (50.5.0-1510)</name>
+          <targetVersion>DoNotUpdate_SERVER_1D490607, 1D490607, RAID 930-16i 4GB Flash, RAID 930-24i 4GB Flash, RAID 930-8e 4GB Flash, RAID 930-16i 8GB Flash, RAID 930-8i 2GB Flash, 1D490601, RAID 930-4i 2GB Flash, 1D490601, 1D490602, 1D490602, 1D490603, 1D490604, 1D490604, 1D490605, 1D490605</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Broadcom NX-1 Ethernet Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_17AA402D, 17AA402C, 10140420, 17AA4011, 10140450, 17AA4107, 14E41805, 14E42805, 17AA4106, 17AA4104, 17AA400E, 17AA4042, 101404D1, 101404D0</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Broadcom NX-E Ethernet Firmware Update for Linux (For Linux)</name>
+          <targetVersion>DoNotUpdate_SERVER_17AA4160, 17AA4161, 17AA4140, 17AA4162, 17AA4163, 17AA4120, 17AA4100, 17AA4101, 17AA4047, 17AA4102, 17AA4105</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Emulex HBA (LPe1205/LPe1200x) Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_10DFF140, 10DFF141, 10DFF100, 95Y2377, 95Y2377, SN37A28093, 10DFF130, 00MN787, SN37A28092, 00MN787, SN37A28093, 10DFF141, 42D0494, 10DFF130, 42D0494, 10DFF100, 42D0485, 42D0485, SN37A28092, 10DFF140</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Emulex HBA (LPe3100x) Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_01CV832, 01CV832, 01CV842, 01CV842, SN30L22002, SN30L22002, SN30L22001, SN30L22001, 10DFE333, 10DFE333, 10DFE332, 10DFE332, 10DFE331, 10DFE331, 10DFE330, 10DFE330</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Emulex HBA (LPe3500x) Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_10DFF419, SN37A28328, 10DFF418, SN37A28328, SN37A28332, 10DFF419, 10DFF418, SN37A28332</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Emulex OCe14xxx UCNA Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_10DFE81F, 10DFE81B, 10DFE818, SN30L34587, 10DFE816, 10DFE810, 94Y5174, 94Y5162, 10DFE874, 47C8196, 47C8261, 10DFE812, 94Y5194, 00AG542, 00AG562, OCl14104-U2-L, 10DFE872, 00AG582, 10DFE81E, 00JY832, 00JY802, 00AG572, 10DFE81A, 00JY822, 00AG592, 00JY886, 10DFE81C, 01CV772, 01CV792, 94Y5204, 01CV782, 10DFE815, 10DFE817, 10DFE811, 10DFE871, 10DFE873, 00JY827, 10DFE81F, 10DFE81B, SN30L34587, 10DFE816, 94Y5174, 10DFE818, 94Y5162, 47C8196, 10DFE812, 94Y5194, 47C8261, 10DFE872, OCl14104-U2-L, 10DFE810, 10DFE874, 00JY802, 00AG572, 00JY822, 00AG592, 00AG542, 00JY886, 00AG562, 10DFE81C, 00AG582, 00JY832, 10DFE81E, 94Y5204, 10DFE81A, 01CV782, 10DFE817, 01CV772, 01CV792, 10DFE815, 10DFE873, 10DFE811, 00JY827, 10DFE871</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Firmware Update for ThinkSystem 1610-4P NVMe Switch Card</name>
+          <targetVersion>DoNotUpdate_SERVER_10B59733, 1D490001</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Intel v23.2 Network FW Update Release for Linux</name>
+          <targetVersion>intc-lnvgy_fw_nic_6.80-4.00-1.1937.0-g_linux_x86-64</targetVersion>
+          <build></build>
+          <releaseDate>2019-07-19</releaseDate>
+          <version>6.80-4.00-1.1937.0-g</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Lenovo Online SAS/SATA Hard Disk Drive Update Program</name>
+          <targetVersion>lnvgy_fw_hdd_sas-1.29.03_linux_x86-64</targetVersion>
+          <build>SAS-1.29.03</build>
+          <releaseDate>2019-07-25</releaseDate>
+          <version>sas-1.29.03</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Lenovo Persistent Memory FW update for Windows/Linux (For Linux)</name>
+          <targetVersion>DoNotUpdate_SERVER_8089097A</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>Mellanox Firmware</name>
+          <targetVersion>mlnx-lnvgy_fw_nic_4.5-1.0.1.0.2_linux_x86-64</targetVersion>
+          <build>MLNX_1224</build>
+          <releaseDate>2019-05-02</releaseDate>
+          <version>4.5-1.0.1.0.2</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>no</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>QLogic FastLinQ Ethernet Adapter Firmware Update for Linux</name>
+          <targetVersion>DoNotUpdate_SERVER_5794X, 10770039, 10770059, 10770035</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>QLogic Fibre Channel HBA Firmware Update for ThinkSystem</name>
+          <targetVersion>DoNotUpdate_SERVER_107702B4, 107702B3, QLE2690, 107702B2, QLE2692, QLE2742, QML2692, QLE2690, 107702AF, 107702AE, QLE2692, QLE2740, QML2692</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>ThinkSystem M.2 with Mirroring Enablement Kit Firmware Update For Anyos</name>
+          <targetVersion>lnvgy_fw_m2raid_2.3.10.1101_anyos_noarch</targetVersion>
+          <build>2.3.10.1101</build>
+          <releaseDate>2019-05-08</releaseDate>
+          <version>2.3.10.1101</version>
+          <isGA>yes</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+        <component>
+          <name>ThinkSystem RAID 730-8i XGB Cache/Flash PCIe 12Gb Adapter Update BIOS and Firmware</name>
+          <targetVersion>DoNotUpdate_SERVER_RAID 730-8i 1GB Cache, 1D490600, 1D490600, RAID 730-8i 2GB Cache, 1D490608, 1D490608</targetVersion>
+          <build></build>
+          <releaseDate></releaseDate>
+          <version></version>
+          <isGA>no</isGA>
+          <packageExistence>yes</packageExistence>
+          <isDefault>yes</isDefault>
+          <type></type>
+        </component>
+      </components>
+    </mt>
+  </details>
+</policy>
