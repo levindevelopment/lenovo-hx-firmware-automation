@@ -17,8 +17,5 @@ Use:
 ![Directory Structure](/Create_BOMC_ISO/staging_structure.png)
 
 
-NOTE: The latest 2.4.3 version of Lenovo XClarity Administrator must be used with this script.
-https://support.lenovo.com/au/en/solutions/lnvo-lxcaupd
-
-Lenovo HX Best Recipe 4.2
-https://support.lenovo.com/us/en/solutions/ht508432
+Lenovo HX Best Recipe 4.9
+https://support.lenovo.com/au/en/solutions/ht505413-thinkagile-hx-best-recipes
