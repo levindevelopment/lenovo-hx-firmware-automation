@@ -3,13 +3,18 @@ Lenovo ThinkAgile HX Firmware Automation Tool
 Performs download/iso creation purely in powershell with TXT config files for storing the best recipe firmware names.
 No external tools like wget and unzip are required, since Powershell has built in functionality for performing downloads and unzips.
 
-Requires manually specifying the version of BOMC (if change required) in the script so it can download it and then copy it where its required to create the ISOs.
 
-Updated to allow local policies file processing of firmware updates.
+Changes:
+
+- Updated to allow local policies file processing of firmware updates.
 
 Use:
-- Create_BOMC_ISOs_from_XML.ps1
+- Place the Create_BOMC_ISOs_from_XML.ps1 powershell script in any directory
 - Policy folder with applicable XML for *only* your deployed systems should be placed in the same directory as the powershell
+- Start Powershell with Administrator privledges
+- Run the powershell script. No options are required.
+
+The script will create a directory named ThinkAgile on your primary volume and download all required files to create the ISO.
 
 
 ![Directory Structure](/Create_BOMC_ISO/staging_structure.png)
